@@ -50,7 +50,7 @@ I don't exactly know the reason behind memory swap, but there has to be atleast 
 
 There are two ways to do that
 
-1. /etc/fstab
+1. Through /etc/fstab
 
     sudo dd if=/dev/zero of=/swap1 bs=1M count=2048
 
